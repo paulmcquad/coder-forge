@@ -46,13 +46,17 @@ Coder Forge
 ## Step 9: Sync with Cloned Repo
 
 1. Check remote settings: [git remote -v](https://www.git-scm.com/docs/git-remote)
+
 You should get something like this:
+
 origin  https://github.com/{username}/coder-forge.git (fetch)
 origin  https://github.com/{username}/coder-forge.git (push)
+
 2. Add an upstream URL:
 [git remote add upstream https://github.com/paulmcquad/coder-forge.git](https://www.git-scm.com/docs/git-remote)
 
 3. Check remote settings again: [git remote -v](https://www.git-scm.com/docs/git-remote). It should look something like this:
+
 origin  https://github.com/paulmcquad/coder-forge.git (fetch)
 origin  https://github.com/paulmcquad/coder-forge.git (push)
 upstream        https://github.com/golang/coder-forge.git (fetch)
