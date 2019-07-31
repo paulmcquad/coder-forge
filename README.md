@@ -58,13 +58,13 @@ origin  https://github.com/{username}/coder-forge.git (push)
 
 3. Check remote settings again: [git remote -v](https://www.git-scm.com/docs/git-remote). It should look something like this:
 
-origin  https://github.com/paulmcquad/coder-forge.git (fetch)
+origin  https://github.com/{username}/coder-forge.git (fetch)
 
-origin  https://github.com/paulmcquad/coder-forge.git (push)
+origin  https://github.com/{username}/coder-forge.git (push)
 
-upstream        https://github.com/golang/coder-forge.git (fetch)
+upstream        https://github.com/paulmcquad/coder-forge.git (fetch)
 
-upstream        https://github.com/golang/coder-forge.git (push)
+upstream        https://github.com/paulmcquad/coder-forge.git (push)
 
 4. Fetch changes from main repo: [git fetch upstream](https://www.git-scm.com/docs/git-fetch)
 5. Merge changes to "local master" from "upstream master" - [git merge upstream/master](https://www.git-scm.com/docs/git-merge).
