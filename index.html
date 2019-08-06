@@ -185,7 +185,14 @@
             $('#sidebarCollapse').on('click', function () {
                 $('#sidebar').toggleClass('active');
             });
-        });
+            $("p").click(function(){
+                $(this).hide();
+            });
+
+            $("#home").click(function(){
+                $(this).hide();
+            });
+    });
     </script>
 </body>
 
