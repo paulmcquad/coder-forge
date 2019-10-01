@@ -4,18 +4,6 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-#forgeLogo {
-    width: 100;
-    height: 100;
-}
-
-#caption {
-    font-family: Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,Courier,monospace;
-}
-
-.hoverable:hover {
-background-color: rgba(0,0,0, 0.1);
-}
 
 :root {
   --blue: #007bff;
