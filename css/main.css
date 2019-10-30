@@ -1,3 +1,5 @@
+/* My Settings */
+
 h1 {
     font-family: "bree", sans-serif;
     font-style: normal;
@@ -5,6 +7,58 @@ h1 {
 }
 
 #header h1 #pyhead {
-    color: 
-    #ce8e29;
+    color: #ce8e29;
 }
+
+/* Copied from Inspector */
+
+body {
+    background: #EAEFF2;
+    color: #333;
+    font-size: 16px;
+    font-family: "bree-serif", serif;
+    font-style: normal;
+    font-weight: 300;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+body {
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+}
+
+/*  */
+
+a {
+    color: #333;
+	background-color: transparent;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+  }
