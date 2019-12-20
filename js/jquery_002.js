@@ -88,7 +88,7 @@
 					}
 					winW = newW;
 				}
-			};
+			}
 			winResize();
 			$(window).bind('resize.smartmenus' + obj.rootId, winResize);
 		});

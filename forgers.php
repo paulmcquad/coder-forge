@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js wf-bree-n4-active wf-bree-n7-active wf-breeserif-n7-active wf-breeserif-n3-active wf-active"><!--<![endif]-->
+<html class="no-js wf-bree-n4-active wf-bree-n7-active wf-breeserif-n7-active wf-breeserif-n3-active wf-active" lang="en"><!--<![endif]-->
 
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -29,7 +29,7 @@
             <!-- Begin grid -->
             <a href="https://coder-forge.com">
                 <h1><img src="/img/profile.jpg"
-                     class="logo img-rounded" height="42" width="42"/>
+                         class="logo img-rounded" height="160" width="42" alt="Coder Forge Logo"/>
                 <span id="pyhead">Coder Forge</span></h1></a>
             <!-- End grid -->
         </header>
@@ -62,7 +62,7 @@
 
 
                         <h3>Paul McQuade</h3>
-                        <img src="/img/people/Paul.jpg" style="float: left; margin-right: 10px; margin-bottom: 5px;" ></img>
+                        <img src="/img/people/Paul.jpg" style="float: left; margin-right: 10px; margin-bottom: 5px;" alt="Paul"/>
 
                         <p> The current organizer of coder forge and author of this website </p>
 
@@ -71,7 +71,7 @@
                          Engineering in 2008. Joined coder-forge meetup in January of 2019. Active user on Github: <a
                          href="https://www.github.com/paulmcquad/">www.github.com/paulmcquad</a>. Has over 65 repositories and loves
                          open source. Loves web development languages like HTML5, CSS3 and Javascript. Check out my <a
-                         href="https://github.com/paulmcquad/CV">CV</a> for more information. Coding is my hooby but I think I would
+                         href="https://github.com/paulmcquad/CV">CV</a> for more information. Coding is my hobby but I think I would
                          like to get a job in 2020.
                         </p>                    
 
@@ -80,7 +80,8 @@
                         <br/>
        
                         <h3>Alan Dodd</h3>
-                        <img src="/img/people/Alan.jpg" width="200" height="200" style="float: left; margin-right: 10px; margin-bottom: 5px;" ></img>
+                        <img src="/img/people/Alan.jpg" width="400" height="400"
+                             style="float: left; margin-right: 10px; margin-bottom: 5px;" alt="Alan Photo"/>
                         
                         <p>
                           Hobbyist coder who runs a number of affiliate websites including cheaptextbooks dot com and
@@ -94,7 +95,8 @@
                         <br/>
 
                         <h3>Caue Duarte</h3>
-                        <img src="/img/people/Caue.jpg" width="200" height="200" style="float: left; margin-right: 10px; margin-bottom: 5px;" ></img>
+                        <img src="/img/people/Caue.jpg" width="460" height="460"
+                             style="float: left; margin-right: 10px; margin-bottom: 5px;" alt="Caue Photo"/>
 
 
                         <p>
@@ -124,10 +126,6 @@
                         </p>
 
                     </section>
-
-
-
-
                 </article>
             </div>
         </div>

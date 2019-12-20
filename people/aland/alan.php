@@ -1,12 +1,12 @@
 <!doctype html>
-<html>
+<html lang="eng">
 <head>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 
 <!--end google analytics-->
-<!-- Google Tag Manager -->
+    <!-- Google Tag Manager -->
 
-<!-- End Google Tag Manager -->
+    <!-- End Google Tag Manager -->
 
 	<title>Coder Forge</title>
 	
