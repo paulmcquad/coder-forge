@@ -133,7 +133,6 @@
 </div>
                         
     <script src="dist/js/jquery.js"></script>
-    <script src="dist/js/jquery_002.js"></script>
     <script src="dist/js/bootstrap.js"></script>
 
 </body>
