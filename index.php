@@ -115,9 +115,10 @@
         </div>
     </div>
 </div>
-                        
-    <script src="dist/js/jquery.js"></script>
-    <script src="dist/js/bootstrap.js"></script>
 
+    <script src="dist/js/jquery-3.4.1.min.js"></script>                    
+    <script src="dist/js/umd/popper.min.js"></script>                   
+    <script src="dist/js/bootstrap.min.js"></script>
+    
 </body>
 </html>
