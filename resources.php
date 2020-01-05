@@ -28,7 +28,7 @@
         <header class="row" id="header">
             <!-- Begin grid -->
             <a href="https://coder-forge.com">
-                <h1><img src="/img/profile.jpg"
+                <h1><img src="img/profile.jpg"
                      class="logo img-rounded" height="42" width="42"/>
                 <span id="pyhead">Coder Forge</span></h1></a>
             <!-- End grid -->
@@ -132,8 +132,6 @@
     </div>
 </div>
                         
-
-    <script src="dist/js/jquery_003.js"></script>
     <script src="dist/js/jquery.js"></script>
     <script src="dist/js/jquery_002.js"></script>
     <script src="dist/js/bootstrap.js"></script>

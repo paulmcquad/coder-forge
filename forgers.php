@@ -28,7 +28,7 @@
         <header class="row" id="header">
             <!-- Begin grid -->
             <a href="https://coder-forge.com">
-                <h1><img src="/img/profile.jpg"
+                <h1><img src="img/profile.jpg"
                      class="logo img-rounded" height="42" width="42"/>
                 <span id="pyhead">Coder Forge</span></h1></a>
             <!-- End grid -->
@@ -62,7 +62,7 @@
 
 
                         <h3>Paul McQuade</h3>
-                        <img src="/img/people/Paul.jpg" style="float: left; margin-right: 10px; margin-bottom: 5px;" ></img>
+                        <img src="img/people/Paul.jpg" style="float: left; margin-right: 10px; margin-bottom: 5px;" ></img>
 
                         <p> The current organizer of coder forge and author of this website </p>
 
@@ -80,7 +80,7 @@
                         <br/>
        
                         <h3>Alan Dodd</h3>
-                        <img src="/img/people/Alan.jpg" width="200" height="200" style="float: left; margin-right: 10px; margin-bottom: 5px;" ></img>
+                        <img src="img/people/Alan.jpg" width="200" height="200" style="float: left; margin-right: 10px; margin-bottom: 5px;" ></img>
                         
                         <p>
                           Hobbyist coder who runs a number of affiliate websites including cheaptextbooks dot com and
@@ -94,7 +94,7 @@
                         <br/>
 
                         <h3>Caue Duarte</h3>
-                        <img src="/img/people/Caue.jpg" width="200" height="200" style="float: left; margin-right: 10px; margin-bottom: 5px;" ></img>
+                        <img src="img/people/Caue.jpg" width="200" height="200" style="float: left; margin-right: 10px; margin-bottom: 5px;" ></img>
 
 
                         <p>
@@ -134,8 +134,6 @@
     </div>
 </div>
                         
-
-    <script src="dist/js/jquery_003.js"></script>
     <script src="dist/js/jquery.js"></script>
     <script src="dist/js/jquery_002.js"></script>
     <script src="dist/js/bootstrap.js"></script>
