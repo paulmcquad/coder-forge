@@ -17,8 +17,8 @@
 
     <style type="text/css">.tk-bree{font-family:"bree",sans-serif;}.tk-bree-serif{font-family:"bree-serif",serif;}</style><style type="text/css">@font-face{font-family:bree;src:url(https://use.typekit.net/af/be7132/000000000000000000013389/27/l?subset_id=2&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/be7132/000000000000000000013389/27/d?subset_id=2&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/be7132/000000000000000000013389/27/a?subset_id=2&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;}@font-face{font-family:bree;src:url(https://use.typekit.net/af/b5463b/00000000000000000001338b/27/l?subset_id=2&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/b5463b/00000000000000000001338b/27/d?subset_id=2&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/b5463b/00000000000000000001338b/27/a?subset_id=2&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;}@font-face{font-family:bree-serif;src:url(https://use.typekit.net/af/31d37f/00000000000000000001441b/27/l?subset_id=2&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/31d37f/00000000000000000001441b/27/d?subset_id=2&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/31d37f/00000000000000000001441b/27/a?subset_id=2&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;}@font-face{font-family:bree-serif;src:url(https://use.typekit.net/af/fc0d08/000000000000000000014418/27/l?subset_id=2&fvd=n3&v=3) format("woff2"),url(https://use.typekit.net/af/fc0d08/000000000000000000014418/27/d?subset_id=2&fvd=n3&v=3) format("woff"),url(https://use.typekit.net/af/fc0d08/000000000000000000014418/27/a?subset_id=2&fvd=n3&v=3) format("opentype");font-weight:300;font-style:normal;}</style><script type="text/javascript">try{Typekit.load({async: false});}catch(e){}</script>
 
-    <link rel="stylesheet" href="css/9b21f50b6868.css" type="text/css">
-    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="dist/css/9b21f50b6868.css" type="text/css">
+    <link rel="stylesheet" href="dist/css/main.css" type="text/css">
 
 </head>
 
@@ -133,11 +133,11 @@
 </div>
                         
 
-    <script src="js/v1.js" async=""></script>
-    <script src="js/jquery_003.js"></script>
-    <script src="js/jquery.js"></script>
-    <script src="js/jquery_002.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <script src="dist/js/v1.js" async=""></script>
+    <script src="dist/js/jquery_003.js"></script>
+    <script src="dist/js/jquery.js"></script>
+    <script src="dist/js/jquery_002.js"></script>
+    <script src="dist/js/bootstrap.js"></script>
 
 </body>
 </html>
