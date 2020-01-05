@@ -117,7 +117,6 @@
 </div>
                         
 
-    <script src="dist/js/v1.js" async=""></script>
     <script src="dist/js/jquery_003.js"></script>
     <script src="dist/js/jquery.js"></script>
     <script src="dist/js/jquery_002.js"></script>
