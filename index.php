@@ -22,7 +22,7 @@
 
 </head>
 
-<body class="template-home-page" cz-shortcut-listen="true">
+<body>
 
     <section class="container">
         <header class="row" id="header">
