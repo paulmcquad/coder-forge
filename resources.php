@@ -124,6 +124,25 @@
                                       class="list-group-item">BeginnersBook Java Tutorial</a>
                             </div>
                         </div>
+
+                        <h3>C++</h3>
+
+                        <div class="rich-text">
+                            <p>
+                                C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language,
+                                or "C with Classes". The language has expanded significantly over time, and modern C++ has object-oriented, generic, 
+                                functional features in addition to facilities for low-level memory manipulation.
+                            </p>
+
+                            <div class="list-group">
+                                    <a href="https://www.geeksforgeeks.org/cpp-tutorial/" target="_blank"
+                                      class="list-group-item">Geeksforgeeks C++ Tutorial</a>
+                                    <a href="https://www.tutorialspoint.com/cplusplus/index.htm" target="_blank"
+                                      class="list-group-item">Tutorialspoint C++ Tutorial</a>
+                                    <a href="https://beginnersbook.com/2017/08/c-plus-plus-tutorial-for-beginners/" target="_blank"
+                                      class="list-group-item">BeginnersBook C++ Tutorial</a>
+                            </div>
+                        </div>
                     <!-- </section> -->
 
                 </article>
