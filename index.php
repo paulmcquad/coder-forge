@@ -54,7 +54,7 @@
                     <p>Due to the Covid-19 situation, we are unable to meet in our usual venue in Temple Bar for the moment.
                      However, we are continuing the meetings every Tuesday 7pm - 9pm on Zoom.
                      Anyone is welcome to join the meeting who want to learn some coding.
-                     To join, you need to become a member of our <a href="https://web.whatsapp.com/" color="green">WhatsApp</a>.
+                     To join, you need to become a member of our <a href="https://web.whatsapp.com/" id="whatsapp">WhatsApp</a>.
 
                      At the moment, we are doing API usage based on the Twilio app, where we are using Postman to manage the web APIs.
                      It's a fun API where you can learn how to send text messages from your terminal or website to anyone using the Twilio API.
