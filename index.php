@@ -45,6 +45,23 @@
         <div class="col-md-8">
             <div class="row">
                 <article>
+
+                    <h2>Covid-19 Situation - ONLINE Meetup only</h2>
+                    <h3>Every Tuesday 7pm - 9pm on Zoom.</h3>
+
+                    <section class="block-paragraph">
+                    <div class="rich-text">
+                    <p>Due to the Covid-19 situation, we are unable to meet in our usual venue in Temple Bar for the moment.
+                     However, we are continuing the meetings every Tuesday 7pm - 9pm on Zoom.
+                     Anyone is welcome to join the meeting who want to learn some coding.
+                     To join, you need to become a member of our WhatsApp Group(see below).
+
+                     At the moment, we are doing API usage based on the Twilio app, where we are using Postman to manage the web APIs.
+                     It's a fun API where you can learn how to send text messages from your terminal or website to anyone using the Twilio API.
+                     It's no problem if you missed a few sessions as the group is very informal and you can easily catch up.
+                    </p>
+                    </div>
+                    </section>
                 
                     <h2>Introduction:</h2>
                         
@@ -107,6 +124,9 @@
                                         </a>
                                 <a href="https://join.slack.com/t/coderforgeworkspace/shared_invite/enQtODE3NTY5NTUxMTkxLWY2NmJkODYxYWMxMTFhYmUyMmQ3ZDhiODE3ZWNmMzU5MDUxMzM4OGRlZThkM2U0Zjc5NDcyYzU2NDVhNTNmNzQ">
                                     <img src="img/slack.png" id="forgeLogo" height="64" width="64">
+                                </a>
+                                <a href="https://web.whatsapp.com/">
+                                    <img src="img/whatsapp.png" id="forgeLogo" height="64" width="64">
                                 </a>
                     </li>
                     
