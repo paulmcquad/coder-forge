@@ -31,25 +31,29 @@
         <span class="mr-2">Latest Release</span>
         <v-icon>mdi-open-in-new</v-icon>
       </v-btn>
-    </v-app-bar> -->
+    </v-app-bar>-->
 
     <v-main>
+      <router-view></router-view>
       <!-- <HelloWorld /> -->
-      <Home />
+      <!-- <Home /> -->
+      <!-- <Contact /> -->
     </v-main>
   </v-app>
 </template>
 
 <script>
 // import HelloWorld from "./components/HelloWorld";
-import Home from "./components/Home";
+// import Home from "./components/Home";
+// import Contact from "./components/Contact";
 
 export default {
   name: "App",
 
   components: {
     // HelloWorld,
-    Home,
+    // Home,
+    // Contact
   },
 
   data: () => ({
