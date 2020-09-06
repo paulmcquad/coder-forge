@@ -50,7 +50,7 @@
               join the meeting who want to learn some coding. To join, you need
               to become a member of our
               <a
-                href="https://web.whatsapp.com/"
+                href="https://chat.whatsapp.com/HRbfQ8Mnx7VLIXzjuuh6ZH"
                 id="whatsapp"
               >WhatsApp</a>. At
               the moment, we are doing API usage based on the Twilio app, where
@@ -138,7 +138,7 @@
         >
           <img src="../assets/slack.png" id="forgeLogo" height="64" width="64" />
         </a>
-        <a href="https://web.whatsapp.com/">
+        <a href="https://chat.whatsapp.com/HRbfQ8Mnx7VLIXzjuuh6ZH">
           <img src="../assets/whatsapp.png" id="forgeLogo" height="64" width="64" />
         </a>
       </article>
