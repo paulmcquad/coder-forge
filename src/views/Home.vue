@@ -2,12 +2,7 @@
   <v-app id="inspire">
     <v-navigation-drawer v-model="drawer" app>
       <v-list dense>
-        <v-list-item
-          v-for="link in links"
-          :key="link.text"
-          router
-          :to="link.route"
-        >
+        <v-list-item v-for="link in links" :key="link.text" router :to="link.route">
           <v-list-item-action>
             <v-icon>{{ link.icon }}</v-icon>
           </v-list-item-action>
@@ -37,6 +32,7 @@
 
     <v-app-bar app color="#faac33" dark>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+      <img src="../assets/icon.png" height="64" width="64" />
       <v-toolbar-title>Coder Forge</v-toolbar-title>
     </v-app-bar>
 
@@ -53,7 +49,10 @@
               meetings every Tuesday 7pm - 9pm on Zoom. Anyone is welcome to
               join the meeting who want to learn some coding. To join, you need
               to become a member of our
-              <a href="https://web.whatsapp.com/" id="whatsapp">WhatsApp</a>. At
+              <a
+                href="https://web.whatsapp.com/"
+                id="whatsapp"
+              >WhatsApp</a>. At
               the moment, we are doing API usage based on the Twilio app, where
               we are using Postman to manage the web APIs. It's a fun API where
               you can learn how to send text messages from your terminal or
@@ -128,39 +127,19 @@
         <h3>Want To Know More About Us?</h3>
 
         <a href="https://www.meetup.com/Dublin-Coder-Forge/">
-          <img
-            src="../assets/meetupicon.png"
-            id="forgeLogo"
-            height="64"
-            width="64"
-          />
+          <img src="../assets/meetupicon.png" id="forgeLogo" height="64" width="64" />
         </a>
 
         <a href="https://www.facebook.com/coderforge">
-          <img
-            src="../assets/fbicon.png"
-            id="forgeLogo"
-            height="64"
-            width="64"
-          />
+          <img src="../assets/fbicon.png" id="forgeLogo" height="64" width="64" />
         </a>
         <a
           href="https://join.slack.com/t/coderforgeworkspace/shared_invite/enQtODE3NTY5NTUxMTkxLWY2NmJkODYxYWMxMTFhYmUyMmQ3ZDhiODE3ZWNmMzU5MDUxMzM4OGRlZThkM2U0Zjc5NDcyYzU2NDVhNTNmNzQ"
         >
-          <img
-            src="../assets/slack.png"
-            id="forgeLogo"
-            height="64"
-            width="64"
-          />
+          <img src="../assets/slack.png" id="forgeLogo" height="64" width="64" />
         </a>
         <a href="https://web.whatsapp.com/">
-          <img
-            src="../assets/whatsapp.png"
-            id="forgeLogo"
-            height="64"
-            width="64"
-          />
+          <img src="../assets/whatsapp.png" id="forgeLogo" height="64" width="64" />
         </a>
       </article>
     </v-main>
@@ -173,11 +152,11 @@ import Footer from "../components/Footer";
 
 export default {
   components: {
-    Footer,
+    Footer
   },
 
   props: {
-    source: String,
+    source: String
   },
 
   data: () => ({
@@ -185,8 +164,8 @@ export default {
     links: [
       { icon: "mdi-home", text: "Home", route: "/" },
       { icon: "mdi-account", text: "Coders", route: "/coders" },
-      { icon: "mdi-book", text: "Resources", route: "/resources" },
-    ],
-  }),
+      { icon: "mdi-book", text: "Resources", route: "/resources" }
+    ]
+  })
 };
 </script>

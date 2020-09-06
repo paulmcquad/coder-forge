@@ -2,12 +2,7 @@
   <v-app id="inspire">
     <v-navigation-drawer v-model="drawer" app>
       <v-list dense>
-        <v-list-item
-          v-for="link in links"
-          :key="link.text"
-          router-link
-          :to="link.route"
-        >
+        <v-list-item v-for="link in links" :key="link.text" router-link :to="link.route">
           <v-list-item-action>
             <v-icon>{{ link.icon }}</v-icon>
           </v-list-item-action>
@@ -20,6 +15,8 @@
 
     <v-app-bar app color="#faac33" dark>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+      <img src="../assets/icon.png" height="64" width="64" />
+
       <v-toolbar-title>Coder Forge</v-toolbar-title>
     </v-app-bar>
 
@@ -39,11 +36,13 @@
             Started of as a student in Institute of Technology Tallaght in 2006.
             Got my Higher Cert in Engineering in 2008. Joined coder-forge meetup
             in January of 2019. Active user on Github:
-            <a href="https://www.github.com/paulmcquad/"
-              >www.github.com/paulmcquad</a
-            >. Has over 65 repositories and loves open source. Loves web
+            <a
+              href="https://www.github.com/paulmcquad/"
+            >www.github.com/paulmcquad</a>. Has over 65 repositories and loves open source. Loves web
             development languages like HTML5, CSS3 and Javascript. Check out my
-            <a href="https://github.com/paulmcquad/CV">CV</a> for more
+            <a
+              href="https://github.com/paulmcquad/CV"
+            >CV</a> for more
             information. Coding is my hooby but I think I would like to get a
             job in 2020.
           </p>
@@ -140,11 +139,11 @@ import Footer from "../components/Footer";
 
 export default {
   components: {
-    Footer,
+    Footer
   },
 
   props: {
-    source: String,
+    source: String
   },
 
   data: () => ({
@@ -152,8 +151,8 @@ export default {
     links: [
       { icon: "mdi-home", text: "Home", route: "/" },
       { icon: "mdi-account", text: "Coders", route: "/coders" },
-      { icon: "mdi-book", text: "Resources", route: "/resources" },
-    ],
-  }),
+      { icon: "mdi-book", text: "Resources", route: "/resources" }
+    ]
+  })
 };
 </script>

@@ -2,12 +2,7 @@
   <v-app id="inspire">
     <v-navigation-drawer v-model="drawer" app>
       <v-list dense>
-        <v-list-item
-          v-for="link in links"
-          :key="link.text"
-          router-link
-          :to="link.route"
-        >
+        <v-list-item v-for="link in links" :key="link.text" router-link :to="link.route">
           <v-list-item-action>
             <v-icon>{{ link.icon }}</v-icon>
           </v-list-item-action>
@@ -20,6 +15,8 @@
 
     <v-app-bar app color="#faac33" dark>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+      <img src="../assets/icon.png" height="64" width="64" />
+
       <v-toolbar-title>Coder Forge</v-toolbar-title>
     </v-app-bar>
 
@@ -48,23 +45,20 @@
                       href="https://www.w3schools.com/html/default.asp"
                       target="_blank"
                       class="list-group-item"
-                      >W3Schools Tutorial on HTML</a
-                    >
+                    >W3Schools Tutorial on HTML</a>
                     <br />
                     <a
                       href="https://www.w3schools.com/css/default.asp"
                       target="_blank"
                       class="list-group-item"
-                      >W3Schools Tutorial on CSS</a
-                    >
+                    >W3Schools Tutorial on CSS</a>
                     <br />
 
                     <a
                       href="https://www.codecademy.com/learn/paths/learn-how-to-build-websites"
                       target="_blank"
                       class="list-group-item"
-                      >Codecademy Course on Web Development with HTML + CSS</a
-                    >
+                    >Codecademy Course on Web Development with HTML + CSS</a>
                   </div>
                 </div>
 
@@ -83,24 +77,21 @@
                       href="https://www.w3schools.com/js/default.asp"
                       target="_blank"
                       class="list-group-item"
-                      >W3Schools Tutorial on JavaScript</a
-                    >
+                    >W3Schools Tutorial on JavaScript</a>
                     <br />
 
                     <a
                       href="https://javascript.info/"
                       target="_blank"
                       class="list-group-item"
-                      >Javascript.info Tutorial</a
-                    >
+                    >Javascript.info Tutorial</a>
                     <br />
 
                     <a
                       href="https://www.javatpoint.com/javascript-tutorial"
                       target="_blank"
                       class="list-group-item"
-                      >Javatpoint Tutorial on JavaScript</a
-                    >
+                    >Javatpoint Tutorial on JavaScript</a>
                   </div>
                 </div>
 
@@ -120,24 +111,21 @@
                       href="https://docs.python.org/3/tutorial/index.html"
                       target="_blank"
                       class="list-group-item"
-                      >Oficial Python.org Tutorial</a
-                    >
+                    >Oficial Python.org Tutorial</a>
                     <br />
 
                     <a
                       href="https://www.sololearn.com/"
                       target="_blank"
                       class="list-group-item"
-                      >SoloLearn Website</a
-                    >
+                    >SoloLearn Website</a>
                     <br />
 
                     <a
                       href="https://pythoninstitute.org/free-python-courses/?gclid=Cj0KCQjwkK_qBRD8ARIsAOteukBnZCea00nmlkyCA7oeF8kHFgmzVj1yYuRC6imRr2Pa7hMGMVB9WhEaAkkDEALw_wcB"
                       target="_blank"
                       class="list-group-item"
-                      >Python Institute Tutorial</a
-                    >
+                    >Python Institute Tutorial</a>
                   </div>
                 </div>
 
@@ -146,7 +134,8 @@
                 <div class="rich-text">
                   <p>
                     Java is a general purpose, object-oriented programming
-                    language. It has a <i>write once, run anywhere</i> approach,
+                    language. It has a
+                    <i>write once, run anywhere</i> approach,
                     where the code writen in one environment will run in any
                     other provided it has a Java Virtual Machine. Java is
                     heavily used in client-server communication and it's also
@@ -158,24 +147,21 @@
                       href="https://docs.oracle.com/javase/tutorial/java/index.html"
                       target="_blank"
                       class="list-group-item"
-                      >Oracle's oficial Java Tutorial</a
-                    >
+                    >Oracle's oficial Java Tutorial</a>
                     <br />
 
                     <a
                       href="https://hi.hyperskill.org/projects3"
                       target="_blank"
                       class="list-group-item"
-                      >JetBrains Academy Course</a
-                    >
+                    >JetBrains Academy Course</a>
                     <br />
 
                     <a
                       href="https://beginnersbook.com/java-tutorial-for-beginners-with-examples/"
                       target="_blank"
                       class="list-group-item"
-                      >BeginnersBook Java Tutorial</a
-                    >
+                    >BeginnersBook Java Tutorial</a>
                   </div>
                 </div>
 
@@ -196,24 +182,21 @@
                       href="https://www.geeksforgeeks.org/cpp-tutorial/"
                       target="_blank"
                       class="list-group-item"
-                      >Geeksforgeeks C++ Tutorial</a
-                    >
+                    >Geeksforgeeks C++ Tutorial</a>
                     <br />
 
                     <a
                       href="https://www.tutorialspoint.com/cplusplus/index.htm"
                       target="_blank"
                       class="list-group-item"
-                      >Tutorialspoint C++ Tutorial</a
-                    >
+                    >Tutorialspoint C++ Tutorial</a>
                     <br />
 
                     <a
                       href="https://beginnersbook.com/2017/08/c-plus-plus-tutorial-for-beginners/"
                       target="_blank"
                       class="list-group-item"
-                      >BeginnersBook C++ Tutorial</a
-                    >
+                    >BeginnersBook C++ Tutorial</a>
                   </div>
                 </div>
                 <!-- </section> -->
@@ -232,11 +215,11 @@ import Footer from "../components/Footer";
 
 export default {
   components: {
-    Footer,
+    Footer
   },
 
   props: {
-    source: String,
+    source: String
   },
 
   data: () => ({
@@ -244,8 +227,8 @@ export default {
     links: [
       { icon: "mdi-home", text: "Home", route: "/" },
       { icon: "mdi-account", text: "Coders", route: "/coders" },
-      { icon: "mdi-book", text: "Resources", route: "/resources" },
-    ],
-  }),
+      { icon: "mdi-book", text: "Resources", route: "/resources" }
+    ]
+  })
 };
 </script>
