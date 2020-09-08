@@ -52,7 +52,7 @@ export default {
     ],
 
     resources: [
-      { icon: "mdi-book", text: "FrontEnd Developer", route: "/front" },
+      { icon: "mdi-book", text: "FrontEnd Developer", route: "/frontend" },
       { icon: "mdi-book", text: "BackEnd Developer", route: "/backend" }
     ]
   })

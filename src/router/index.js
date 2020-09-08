@@ -20,10 +20,16 @@ const routes = [
       import(/* webpackChunkName: "about" */ "../views/Coders.vue"),
   },
   {
-    path: "/front",
-    name: "Front",
+    path: "/frontend",
+    name: "Frontend",
     component: () =>
-      import(/* webpackChunkName: "front" */ "../views/Front.vue"),
+      import(/* webpackChunkName: "front" */ "../views/Frontend.vue"),
+  },
+  {
+    path: "/backend",
+    name: "Backend",
+    component: () =>
+      import(/* webpackChunkName: "front" */ "../views/Backend.vue"),
   },
 ];
 
