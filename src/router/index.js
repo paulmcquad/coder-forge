@@ -23,13 +23,7 @@ const routes = [
     path: "/front",
     name: "Front",
     component: () =>
-      import(/* webpackChunkName: "resources" */ "../views/Front.vue"),
-  },
-  {
-    path: "/nested",
-    name: "Nested",
-    component: () =>
-      import(/* webpackChunkName: "resources" */ "../views/Nested.vue"),
+      import(/* webpackChunkName: "front" */ "../views/Front.vue"),
   },
 ];
 

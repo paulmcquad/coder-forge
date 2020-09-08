@@ -1,5 +1,5 @@
 <template>
-  <v-card class="mx-auto" width="300">
+  <v-list dense>
     <v-list>
       <v-list-item v-for="main in mains" :key="main.text" router :to="main.route">
         <v-list-item-action>
@@ -36,11 +36,15 @@
         </v-list-group>
       </v-list-group>
     </v-list>
-  </v-card>
+  </v-list>
 </template>
 
 <script>
 export default {
+  components: {},
+
+  props: {},
+
   data: () => ({
     mains: [
       { icon: "mdi-home", text: "Home", route: "/" },
