@@ -37,7 +37,7 @@
                       href="https://docs.python.org/3/tutorial/index.html"
                       target="_blank"
                       class="list-group-item"
-                    >Oficial Python.org Tutorial</a>
+                    >Official Python.org Tutorial</a>
                     <br />
 
                     <a

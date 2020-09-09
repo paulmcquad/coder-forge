@@ -23,14 +23,14 @@
           </template>
 
           <v-list-item
-            v-for="resource in resources"
-            :key="resource.text"
+            v-for="fullstack in fullstacks"
+            :key="fullstack.text"
             router
-            :to="resource.route"
+            :to="fullstack.route"
           >
-            <v-icon>{{ resource.icon }}</v-icon>
+            <v-icon>{{ fullstack.icon }}</v-icon>
             <v-list-item-icon>
-              <v-list-item-title>{{ resource.text }}</v-list-item-title>
+              <v-list-item-title>{{ fullstack.text }}</v-list-item-title>
             </v-list-item-icon>
           </v-list-item>
         </v-list-group>
@@ -51,9 +51,10 @@ export default {
       { icon: "mdi-account", text: "Coders", route: "/coders" }
     ],
 
-    resources: [
-      { icon: "mdi-book", text: "FrontEnd Developer", route: "/frontend" },
-      { icon: "mdi-book", text: "BackEnd Developer", route: "/backend" }
+    fullstacks: [
+      { text: "FrontEnd Developer", route: "/frontend" },
+      { text: "BackEnd Developer", route: "/backend" },
+      { text: "Javascript Developer", route: "/jsframe" }
     ]
   })
 };

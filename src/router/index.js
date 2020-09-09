@@ -31,6 +31,12 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "front" */ "../views/Backend.vue"),
   },
+  {
+    path: "/jsframe",
+    name: "JSFrame",
+    component: () =>
+      import(/* webpackChunkName: "front" */ "../views/JSFrame.vue"),
+  },
 ];
 
 const router = new VueRouter({
