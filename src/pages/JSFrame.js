@@ -1,23 +1,33 @@
-<template>
-  <v-app id="inspire">
-    <v-navigation-drawer v-model="drawer" app>
-      <Header />
-    </v-navigation-drawer>
 
-    <v-app-bar app color="#faac33" dark>
-      <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
-      <img src="../assets/icon.png" height="64" width="64" />
+import React from 'react';
+import styled from 'styled-components';const GridWrapper = styled.div``;
 
-      <v-toolbar-title>Coder Forge</v-toolbar-title>
-    </v-app-bar>
 
-    <v-main>
-      <div class="container">
-        <div class="row well">
-          <div class="col-md-8">
-            <div class="row">
-              <article>
-                <h2>Resources:</h2>
+export const JSFrame = (props) => (
+    <GridWrapper>
+
+        <h2>JavaScript Frameworks:</h2>
+        
+        <h3>React</h3>
+
+                  <div class="rich-text">
+                    <p>
+                      React (also known as React.js or ReactJS) is an open-source JavaScript library for building
+                      user interfaces or UI components. It is maintained by Facebook and a community of individual
+                      developers and companies. React can be used as a base in the development of single-page or mobile applications.
+                      However, React is only concerned with rendering data to the DOM, and so creating React applications usually requires
+                      the use of additional libraries for state management and routing. Redux and React Router are respective examples of such libraries.
+                    </p>
+
+                    <div class="list-group">
+                      <a
+                        href="https://reactjs.org/"
+                        target="_blank"
+                        rel="noreferrer"
+                        class="list-group-item"
+                      >React Website</a>
+                <br />
+
 
                 <h3>Vue.js + Vuetify</h3>
 
@@ -39,14 +49,16 @@
                   <div class="list-group">
                     <a
                       href="https://vuejs.org/"
-                      target="_blank"
+                    target="_blank"
+                    rel="noreferrer"
                       class="list-group-item"
                     >VueJS Website</a>
                     <br />
 
                     <a
                       href="https://vuetifyjs.com/en/"
-                      target="_blank"
+                    target="_blank"
+                    rel="noreferrer"
                       class="list-group-item"
                     >Vuetifyjs Website</a>
                     <br />
@@ -67,59 +79,18 @@
                   <div class="list-group">
                     <a
                       href="https://angular.io/"
-                      target="_blank"
+                    target="_blank"
+                    rel="noreferrer"
                       class="list-group-item"
                     >Angular Website</a>
                     <br />
                   </div>
                   <br />
-                  <h3>React</h3>
-
-                  <div class="rich-text">
-                    <p>
-                      React (also known as React.js or ReactJS) is an open-source JavaScript library for building
-                      user interfaces or UI components. It is maintained by Facebook and a community of individual
-                      developers and companies. React can be used as a base in the development of single-page or mobile applications.
-                      However, React is only concerned with rendering data to the DOM, and so creating React applications usually requires
-                      the use of additional libraries for state management and routing. Redux and React Router are respective examples of such libraries.
-                    </p>
-
-                    <div class="list-group">
-                      <a
-                        href="https://reactjs.org/"
-                        target="_blank"
-                        class="list-group-item"
-                      >React Website</a>
-                      <br />
                     </div>
                   </div>
                 </div>
-              </article>
-            </div>
-          </div>
-        </div>
-      </div>
-    </v-main>
-    <Footer />
-  </v-app>
-</template>
+        
 
-<script>
-import Footer from "../components/Footer";
-import Header from "../components/Header";
 
-export default {
-  components: {
-    Footer,
-    Header
-  },
-
-  props: {
-    source: String
-  },
-
-  data: () => ({
-    drawer: null
-  })
-};
-</script>
+    </GridWrapper>
+)

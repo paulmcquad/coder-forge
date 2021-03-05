@@ -1,28 +1,25 @@
-<template>
-  <v-app id="inspire">
-    <v-navigation-drawer v-model="drawer" app>
-      <Header />
-    </v-navigation-drawer>
+import paul from "../assets/Coders/Paul.jpg";
+import alan from "../assets/Coders/Alan.jpg";
+import caue from "../assets/Coders/Caue.jpg";
 
-    <v-app-bar app color="#faac33" dark>
-      <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
-      <img src="../assets/icon.png" height="64" width="64" />
-
-      <v-toolbar-title>Coder Forge</v-toolbar-title>
-    </v-app-bar>
-
-    <v-main>
-      <article>
-        <section id="Coders">
-          <h2>Coders:</h2>
+import React from 'react';
+import styled from 'styled-components'; const GridWrapper = styled.div`
+  display: grid;
+  grid-gap: 10px;
+  margin-top: 3em;
+  margin-left: 5em;
+  margin-right: 5em;
+  grid-auto-rows: minmax(25px, auto);
+`; export const Coders = () => (
+  <GridWrapper>
+      <h2>Coders:</h2>
           <h3>Paul McQuade</h3>
-          <img
-            src="../assets/Coders/Paul.jpg"
-            style="float: left; margin-right: 10px; margin-bottom: 5px;"
-          />
+          <img src={paul} alt="main coder" //style="float: left; margin-right: 10px; margin-bottom: 5px;"
+        />
+
 
           <p>The current organizer of coder forge and author of this website</p>
-
+           
           <p>
             Started of as a student in Institute of Technology Tallaght in 2006.
             Got my Higher Cert in Engineering in 2008. Joined coder-forge meetup
@@ -30,14 +27,14 @@
             <a
               href="https://www.github.com/paulmcquad/"
             >www.github.com/paulmcquad</a>. Has over 65 repositories and loves open source. Loves web
-            development languages like HTML5, CSS3 and Javascript. Check out my
+            development languages like HTML5, CSS3 and Javascript. Check out my 
             <a
               href="https://github.com/paulmcquad/CV"
-            >CV</a> for more
+            > CV</a> for more
             information. Coding is my hooby but I think I would like to get a
-            job in 2020.
+            job in 2021.
           </p>
-
+        
           <br />
           <br />
           <br />
@@ -47,10 +44,10 @@
 
           <h3>Alan Dodd</h3>
           <img
-            src="../assets/Coders/Alan.jpg"
+            src={alan}
             width="200"
             height="200"
-            style="float: left; margin-right: 10px; margin-bottom: 5px;"
+            alt="head coderforger"
           />
 
           <p>
@@ -69,19 +66,20 @@
           <h3>Daithi Coombes</h3>
 
           <p>
-            founder of Coder Forge. He has 12 years experience as a digital
+            Founder of Coder Forge. He has 12 years experience as a digital
             nomad and 6 years working in house. Starting as a full stack
             engineer he has moved to Distributed Ledger Technologies. Currently
             he is a Smart Contract Advisor for Gaimin and also working full time
             as a Blockchain Engineer with Blockdaemon.
           </p>
 
-          <h3>Caue Duarte</h3>
+
+        <h3>Caue Duarte</h3>
           <img
-            src="../assets/Coders/Caue.jpg"
+            src={caue}
             width="200"
             height="200"
-            style="float: left; margin-right: 10px; margin-bottom: 5px;"
+            alt="coderforger"
           />
 
           <p>
@@ -98,8 +96,8 @@
           <br />
           <br />
           <br />
-
-          <h3>Agnieszka Kowalczyk (Agi)</h3>
+        
+         <h3>Agnieszka Kowalczyk (Agi)</h3>
           <p>
             Psychology PhD graduate with background in health/social care;
             asipring Data Scientist. Competent in using R-programing language
@@ -117,30 +115,11 @@
             Story Telling, Photographer, writer. working towards becoming a
             Software Developer. Joined the Coder Forger to learn and practice
             programing and all round Tech.
-          </p>
-        </section>
-      </article>
-    </v-main>
-    <Footer />
-  </v-app>
-</template>
+          </p>        
 
-<script>
-import Footer from "../components/Footer";
-import Header from "../components/Header";
 
-export default {
-  components: {
-    Footer,
-    Header
-  },
 
-  props: {
-    source: String
-  },
 
-  data: () => ({
-    drawer: null
-  })
-};
-</script>
+
+  </GridWrapper>
+)

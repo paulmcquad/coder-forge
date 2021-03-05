@@ -1,17 +1,15 @@
-<template>
-  <v-app id="inspire">
-    <v-navigation-drawer v-model="drawer" app>
-      <Header />
-    </v-navigation-drawer>
+import meetup from "../assets/meetupicon.png";
+import facebook from "../assets/fbicon.png";
+import slack from "../assets/slack.png";
+import whatsapp from "../assets/whatsapp.png";
 
-    <v-app-bar app color="#faac33" dark>
-      <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
-      <img src="../assets/icon.png" height="64" width="64" />
-      <v-toolbar-title>Coder Forge</v-toolbar-title>
-    </v-app-bar>
+import React from 'react';
+import styled from 'styled-components';const GridWrapper = styled.div``;
 
-    <v-main>
-      <article>
+
+export const Home = (props) => (
+<GridWrapper>
+          <article>
         <h2>Covid-19 Situation - ONLINE Meetup only</h2>
         <h3>Every Tuesday 7pm - 9pm on Zoom.</h3>
 
@@ -26,7 +24,7 @@
               <a
                 href="https://chat.whatsapp.com/HRbfQ8Mnx7VLIXzjuuh6ZH"
                 id="whatsapp"
-              >WhatsApp</a>. At
+              > WhatsApp</a>. At
               the moment, we are doing API usage based on the Twilio app, where
               we are using Postman to manage the web APIs. It's a fun API where
               you can learn how to send text messages from your terminal or
@@ -49,7 +47,7 @@
           </div>
         </section>
 
-        <!-- <h3>Where Do We Meet?</h3> -->
+{/*         <!-- <h3>Where Do We Meet?</h3> -->
 
         <!-- <section class="block-paragraph"> -->
         <!-- <div class="rich-text"> -->
@@ -60,7 +58,7 @@
         <!-- src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.880054839293!2d-6.266677584269861!3d53.34540327997877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670fe44ae2b6e9%3A0xd679b49e440fc45d!2sBrick+Alley+Cafe!5e0!3m2!1sen!2sie!4v1565120761707!5m2!1sen!2sie" -->
         <!-- width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe> -->
         <!-- </div> -->
-        <!-- </section> -->
+        <!-- </section> --> */}
 
         <h3>How Is It Done?</h3>
 
@@ -101,42 +99,20 @@
         <h3>Want To Know More About Us?</h3>
 
         <a href="https://www.meetup.com/Dublin-Coder-Forge/">
-          <img src="../assets/meetupicon.png" id="forgeLogo" height="64" width="64" />
+          <img src={meetup} id="forgeLogo" height="64" width="64" alt="social media network" />
         </a>
 
         <a href="https://www.facebook.com/coderforge">
-          <img src="../assets/fbicon.png" id="forgeLogo" height="64" width="64" />
+          <img src={facebook} id="forgeLogo" height="64" width="64" alt="social media network" />
         </a>
         <a
           href="https://join.slack.com/t/coderforgeworkspace/shared_invite/enQtODE3NTY5NTUxMTkxLWY2NmJkODYxYWMxMTFhYmUyMmQ3ZDhiODE3ZWNmMzU5MDUxMzM4OGRlZThkM2U0Zjc5NDcyYzU2NDVhNTNmNzQ"
         >
-          <img src="../assets/slack.png" id="forgeLogo" height="64" width="64" />
+          <img src={slack} id="forgeLogo" height="64" width="64" alt="social media network" />
         </a>
         <a href="https://chat.whatsapp.com/HRbfQ8Mnx7VLIXzjuuh6ZH">
-          <img src="../assets/whatsapp.png" id="forgeLogo" height="64" width="64" />
+          <img src={whatsapp} id="forgeLogo" height="64" width="64" alt="social media network" />
         </a>
       </article>
-    </v-main>
-    <Footer />
-  </v-app>
-</template>
-
-<script>
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-
-export default {
-  components: {
-    Footer,
-    Header
-  },
-
-  props: {
-    source: String
-  },
-
-  data: () => ({
-    drawer: null
-  })
-};
-</script>
+</GridWrapper>
+)
