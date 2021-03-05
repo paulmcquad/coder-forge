@@ -10,6 +10,7 @@ import styled from 'styled-components';const Styles = styled.div`
     color: white;
     &:hover { color: white; }
     padding-right: 20px;
+    text-decoration: none;
   }
   .navbar-brand {
     font-size: 1.4em;
