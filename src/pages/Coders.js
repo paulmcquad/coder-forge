@@ -117,9 +117,5 @@ import styled from 'styled-components'; const GridWrapper = styled.div`
             programing and all round Tech.
           </p>        
 
-
-
-
-
   </GridWrapper>
 )
