@@ -7399,9 +7399,3 @@ textarea.form-control-lg {
     display: inline-flex !important; }
   .d-print-none {
     display: none !important; } }
-
-article {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 350px;
-  padding-right: 350px; }
