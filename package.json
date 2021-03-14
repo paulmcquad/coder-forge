@@ -1,6 +1,6 @@
 {
   "name": "coderforge",
-  "version": "0.7.1",
+  "version": "0.7.6",
   "description": "Irish coder website",
   "main": "index.js",
   "scripts": {
