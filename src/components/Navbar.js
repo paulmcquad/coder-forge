@@ -1,6 +1,6 @@
 import '../App.css';
 
-function Navbar() {
+export default function Navbar() {
 return(
 <nav class="px-2 bg-white border-gray-200 dark:bg-gray-800 dark:border-gray-700">
   <div class="container flex flex-wrap justify-between items-center mx-auto">
@@ -51,5 +51,3 @@ return(
   </div>
 </nav>
 )}
-
-export default Navbar;
