@@ -4,17 +4,21 @@ Nav,
 NavLink,
 Bars,
 NavMenu,
-NavBtn,
-NavBtnLink,
+// NavBtn,
+// NavBtnLink,
 } from './NavbarElements';
 
-export default const Navbar = () => {
+const Navbar = () => {
 return (
 	<>
 	<Nav>
 		<Bars />
 
 		<NavMenu>
+		<img src="https://coderforge.io/assets/logo.png" class="mr-3 h-6 sm:h-10" alt="CoderForge Logo" />
+		<NavLink to='/' activeStyle>
+			Home
+		</NavLink>
 		<NavLink to='/about' activeStyle>
 			About
 		</NavLink>
@@ -36,12 +40,12 @@ return (
 		{/* Second Nav */}
 		{/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
 		</NavMenu>
-		<NavBtn>
+		{/* <NavBtn>
 		<NavBtnLink to='/signin'>Sign In</NavBtnLink>
-		</NavBtn>
+		</NavBtn> */}
 	</Nav>
 	</>
 );
 };
 
-
+export default Navbar;

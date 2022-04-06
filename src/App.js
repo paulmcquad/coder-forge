@@ -10,7 +10,6 @@ import About from './pages/about';
 export default function App() {
   return (
     <div className="App">
-      <h1>Welcome to CoderForge</h1>
       <Navbar /> {/* Use Navbar */}
       <Routes>
         <Route path="/" element={<Home />} />
