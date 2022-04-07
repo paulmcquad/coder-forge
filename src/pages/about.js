@@ -12,8 +12,7 @@ return (
 	}} */
 	>
 	<h1>GeeksforGeeks is a Computer Science portal for geeks.</h1>
-        {/* <Link to="/">Home</Link> |
-        <Link to="/about">About</Link> | */}
+
 
 
 	</div>
