@@ -25,7 +25,7 @@ export default function Navbar() {
                             <a class="nav-link" href="/coders">Coders</a>
                           </li>
                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Developer Setup
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -37,21 +37,21 @@ export default function Navbar() {
                           </li>
 
                           <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Coding
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                               <li><a class="dropdown-item" href="https://missing.csail.mit.edu/">Missing Semester</a></li>
                               <li><hr class="dropdown-divider"></hr></li>
-                              <li><a class="dropdown-item" href="/web.html">Web</a></li>
-                              <li><a class="dropdown-item" href="/scripting.html">Scripting</a></li>
-                              <li><a class="dropdown-item" href="/backend.html">Backend</a></li>
-                              <li><a class="dropdown-item" href="/database.html">Database</a></li>
-                              <li><a class="dropdown-item" href="/kernel.html">Kernel</a></li>
+                              <li><a class="dropdown-item" href="/web">Web</a></li>
+                              <li><a class="dropdown-item" href="/scripting">Scripting</a></li>
+                              <li><a class="dropdown-item" href="/backend">Backend</a></li>
+                              <li><a class="dropdown-item" href="/database">Database</a></li>
+                              <li><a class="dropdown-item" href="/kernel">Kernel</a></li>
                             </ul>
                           </li>
                           <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Frameworks
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">

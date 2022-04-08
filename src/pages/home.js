@@ -122,8 +122,8 @@ return (
 			<a href="https://chat.whatsapp.com/HRbfQ8Mnx7VLIXzjuuh6ZH">
                 <img src={whatsapp} id="forgeLogo" alt="social media network" width="64" height="64"/>
               </a>
+      <br/>
 			</div>
-
         </div>
       </article>
       <article class="col">

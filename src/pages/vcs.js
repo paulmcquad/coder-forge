@@ -28,7 +28,7 @@ return (
              <a class="text-sky-500 dark:text-sky-400" href="https://git-scm.com/"> Git Website</a>
             </p>
 
-            <iframe width="240" height="180" src="https://www.youtube.com/embed/SWYqp7iY_Tc" frameborder="0"
+            <iframe title="Git & Github" width="240" height="180" src="https://www.youtube.com/embed/SWYqp7iY_Tc" frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen></iframe>
             <br/>
@@ -50,7 +50,7 @@ return (
               <br/>
               <a class="text-sky-500 dark:text-sky-400" href="https://www.mercurial-scm.org/"> Mercurial Website</a>
             </p>
-            <iframe width="240" height="180" src="https://www.youtube.com/embed/6EJtk3GSqXo" frameborder="0"
+            <iframe title="Mercurial" width="240" height="180" src="https://www.youtube.com/embed/6EJtk3GSqXo" frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen></iframe>
               <br/>

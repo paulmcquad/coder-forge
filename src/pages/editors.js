@@ -32,6 +32,7 @@ return (
                     <br/>
                     <a class="text-sky-500 dark:text-sky-400" href="https://github.com/microsoft/vscode">VS Code - Source Code</a>
                 </div>
+                <br/>
             </section>
             <hr/>
 
@@ -54,6 +55,7 @@ return (
                     <br/>
                     <a class="text-sky-500 dark:text-sky-400" href="https://github.com/atom/atom">Atom - Source Code</a>
                 </div>
+                <br/>
             </section>
             <hr/>
 
@@ -75,6 +77,7 @@ return (
                     <br/>
                     <a class="text-sky-500 dark:text-sky-400" href="https://github.com/neovim/neovim">Neovim - Source Code</a>
                 </div>
+                <br/>
             </section>
             <hr/>
 
@@ -97,6 +100,7 @@ return (
                     <br/>
                     <a class="text-sky-500 dark:text-sky-400" href="https://git.savannah.gnu.org/cgit/emacs.git/">GNU Emacs - Source Code</a>
                 </div>
+                <br/>
             </section>
 
 

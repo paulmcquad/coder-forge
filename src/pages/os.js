@@ -120,6 +120,8 @@ return (
                         <a class="text-sky-500 dark:text-sky-400" href="https://en.wikipedia.org/wiki/MacOS_Big_Sur"> macOS 11 Big Sur </a>
                         |
                     </p>
+                    <br/>
+
                 </div>
                 <hr></hr>
             </section>
@@ -160,6 +162,7 @@ return (
                         <a class="text-sky-500 dark:text-sky-400"  href="https://en.wikipedia.org/wiki/Windows_10" title="Windows 10"> Windows 10 </a>
                         |
                     </p>
+                    <br/>
                 </div>
             </section>
 
