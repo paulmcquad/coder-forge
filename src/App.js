@@ -13,6 +13,7 @@ import VCS from "./pages/vcs";
 import Hosting from "./pages/hosting";
 import Web from "./pages/web";
 import Scripting from "./pages/scripting";
+import Backend from "./pages/backend";
 
 export default function App() {
   return (
@@ -27,6 +28,7 @@ export default function App() {
         <Route path="hosting" element={<Hosting />} />
         <Route path="web" element={<Web />} />
         <Route path="scripting" element={<Scripting />} />
+        <Route path="backend" element={<Backend />} />
       </Routes>
       <Footer /> {/* Use Footer */}
     </div>
