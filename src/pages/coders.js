@@ -5,7 +5,7 @@ import Alan from '../assets/Coders/Alan.jpg';
 // import 'bootstrap/dist/js/bootstrap.js'
 // import { Link } from "react-router-dom"; // reactrouter v6
 
-const Coders = () => {
+export default function Coders() {
 return (
 	<div>
 
@@ -16,7 +16,7 @@ return (
               <hr></hr>
               <h3 class="text-xl font-bold underline">Paul McQuade</h3>
               <figure class="md:flex rounded-xl md:p-8 dark:bg-slate-800">
-                <img class="w-24 h-24 md:w-48 md:h-auto md:rounded rounded-full mx-auto" src={Paul} alt="" width="384" height="512"/>
+                <img class="w-24 h-24 md:w-48 md:h-auto md:rounded rounded-full mx-auto" src={Paul} alt="Web developer" width="384" height="512"/>
                 <div class="pt-6 md:p-8 text-left md:text-left space-y-4">
                     <blockquote>
                     <p class="text-lg font-medium ml-2">
@@ -104,5 +104,3 @@ return (
 	</div>
 );
 };
-
-export default Coders;

@@ -29,10 +29,10 @@ export default function Navbar() {
                             Developer Setup
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <li><a class="dropdown-item" href="/os.html">Operating Systems</a></li>
-                              <li><a class="dropdown-item" href="/editors.html">Code Editors</a></li>
-                              <li><a class="dropdown-item" href="/vcs.html">Version Control Software</a></li>
-                              <li><a class="dropdown-item" href="/hosting.html">Code Hosting</a></li>
+                              <li><a class="dropdown-item" href="/os">Operating Systems</a></li>
+                              <li><a class="dropdown-item" href="/editors">Code Editors</a></li>
+                              <li><a class="dropdown-item" href="/vcs">Version Control Software</a></li>
+                              <li><a class="dropdown-item" href="/hosting">Code Hosting</a></li>
                             </ul>
                           </li>
 

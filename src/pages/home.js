@@ -1,18 +1,20 @@
 import React from 'react';
+import members from "../assets/Coders/members.jpg";
 import meetupicon from '../assets/meetupicon.png';
 import fbicon from '../assets/fbicon.png';
 import slack from '../assets/slack.png';
 import whatsapp from '../assets/whatsapp.png';
 // import { Link } from "react-router-dom"; // reactrouter v6
 
-const Home = () => {
+export default function Home() {
 return (
 	<div>
 		<main class="row">
     <article class="col">
 
     </article>
-    <article class="col-8">
+    <article class="col-8 text-left">
+    <img class="h-72" src={members} alt="coderforge members" />
 
 	<h2 class="text-3xl font-bold">Covid-19 Situation - ONLINE Meetup only</h2>
         <h3 class="text-2xl font-bold">Every Tuesday 7pm - 9pm on Zoom.</h3>
@@ -131,5 +133,3 @@ return (
 	</div>
 );
 };
-
-export default Home;
