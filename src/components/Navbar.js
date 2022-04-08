@@ -25,7 +25,7 @@ export default function Navbar() {
                             <a class="nav-link" href="/coders">Coders</a>
                           </li>
                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Developer Setup
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -37,7 +37,7 @@ export default function Navbar() {
                           </li>
 
                           <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Coding
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -51,12 +51,12 @@ export default function Navbar() {
                             </ul>
                           </li>
                           <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Frameworks
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <li><a class="dropdown-item" href="/css_fw.html">CSS</a></li>
-                              <li><a class="dropdown-item" href="/javascript_fw.html">JavaScript</a></li>
+                              <li><a class="dropdown-item" href="/cssfw">CSS</a></li>
+                              <li><a class="dropdown-item" href="/javascriptfw">JavaScript</a></li>
                             </ul>
                           </li>
                         </ul>

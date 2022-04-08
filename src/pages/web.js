@@ -77,7 +77,9 @@ return (
                     > Javatpoint Tutorial on JavaScript </a>
                     |
                 </div>
+                <hr/>
                 <br/>
+                
       </article>
       <article class="col">
 

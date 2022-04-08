@@ -92,9 +92,9 @@ return (
                 |
                 <a class="text-sky-500 dark:text-sky-400" href="https://couchdb.apache.org/"> Apache CouchDB </a>
                 |
+                <hr></hr>
             </div>
             <br/>
-            <hr></hr>
         </section>
 
     </article>

@@ -15,6 +15,9 @@ import Web from "./pages/web";
 import Scripting from "./pages/scripting";
 import Backend from "./pages/backend";
 import Database from "./pages/database";
+import Kernel from "./pages/kernel";
+import Cssfw from "./pages/cssfw";
+import Javascriptfw from "./pages/javascriptfw";
 
 export default function App() {
   return (
@@ -31,6 +34,9 @@ export default function App() {
         <Route path="scripting" element={<Scripting />} />
         <Route path="backend" element={<Backend />} />
         <Route path="database" element={<Database />} />
+        <Route path="kernel" element={<Kernel />} />
+        <Route path="cssfw" element={<Cssfw />} />
+        <Route path="javascriptfw" element={<Javascriptfw />} />
       </Routes>
       <Footer /> {/* Use Footer */}
     </div>
