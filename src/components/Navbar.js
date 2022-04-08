@@ -1,11 +1,46 @@
 import * as React from "react";
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap/dist/js/bootstrap.js'
+import { Link } from "react-router-dom";
+// import 'bootstrap/dist/css/bootstrap.css'
+// import 'bootstrap/dist/js/bootstrap.js'
+import logo from '../assets/logo.png';
+
 
 export default function Navbar() {
     return (
 
-<header>
+<div>
+      <nav class="text-light bg-dark"
+        style={{
+          borderBottom: "solid 2px",
+          paddingTop: "1rem",
+          paddingBottom: "1rem",
+          backgroundColor: "black", 
+        }}
+      >
+
+        <img src={logo} alt="Logo" width="30" height="30" className="d-inline-block align-top" />
+                      <a class="container-fluid navbar-brand text-light bg-dark" href="/">CoderForge</a>
+
+  <div>
+          <Link to="/">Home</Link> |{" "}
+          <Link to="/coders">Coders</Link> |{" "}
+          <Link to="/os">OS</Link> |{" "}
+          <Link to="/editors">Editors</Link> |{" "}
+          <Link to="/vcs">VCS</Link> |{" "}
+          <Link to="/hosting">Hosting</Link> |{" "}
+          <Link to="/web">Web</Link> |{" "}
+          <Link to="/scripting">Scripting</Link> |{" "}
+          <Link to="/backend">Backend</Link> |{" "}
+          <Link to="/database">Database</Link> |{" "}
+          <Link to="/kernel">Kernel</Link> |{" "}
+          <Link to="/cssfw">CSS Frameworks</Link> |{" "}
+          <Link to="/javascriptfw">Javascript Frameworks</Link> |{" "}
+  </div>
+
+      </nav>
+    </div>
+
+/* <header>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xl-12">
@@ -67,7 +102,7 @@ export default function Navbar() {
             </div>
         </div>
     </header>
-
+ */
     );
 
 }

@@ -22,21 +22,21 @@ import Javascriptfw from "./pages/javascriptfw";
 export default function App() {
   return (
     <div className="App">
-      <Navbar /> {/* Use Navbar */}
+    <Navbar /> {/* Use Navbar */}
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="coders" element={<Coders />} />
-        <Route path="os" element={<OS />} />
-        <Route path="editors" element={<Editors />} />
-        <Route path="vcs" element={<VCS />} />
-        <Route path="hosting" element={<Hosting />} />
-        <Route path="web" element={<Web />} />
-        <Route path="scripting" element={<Scripting />} />
-        <Route path="backend" element={<Backend />} />
-        <Route path="database" element={<Database />} />
-        <Route path="kernel" element={<Kernel />} />
-        <Route path="cssfw" element={<Cssfw />} />
-        <Route path="javascriptfw" element={<Javascriptfw />} />
+        <Route exact path="/" element={<Home />} />
+        <Route path="/coders" element={<Coders />} />
+        <Route path="/os" element={<OS />} />
+        <Route path="/editors" element={<Editors />} />
+        <Route path="/vcs" element={<VCS />} />
+        <Route path="/hosting" element={<Hosting />} />
+        <Route path="/web" element={<Web />} />
+        <Route path="/scripting" element={<Scripting />} />
+        <Route path="/backend" element={<Backend />} />
+        <Route path="/database" element={<Database />} />
+        <Route path="/kernel" element={<Kernel />} />
+        <Route path="/cssfw" element={<Cssfw />} />
+        <Route path="/javascriptfw" element={<Javascriptfw />} />
       </Routes>
       <Footer /> {/* Use Footer */}
     </div>
