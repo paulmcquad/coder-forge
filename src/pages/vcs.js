@@ -34,6 +34,7 @@ return (
             <br/>
           </div>
         </section>
+        <hr></hr>
 
         <h3 class="text-2xl font-bold">Mercurial</h3>
 
