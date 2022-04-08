@@ -9,7 +9,7 @@ return (
                 <article class="col">
 
                 </article>
-                <article class="col-8  text-left">
+                <article class="col-8 text-left">
 
                 <h2 class="text-3xl font-bold">Web Development: </h2>
                 <br/>

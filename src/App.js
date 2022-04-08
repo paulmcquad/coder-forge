@@ -12,6 +12,7 @@ import Editors from "./pages/editors";
 import VCS from "./pages/vcs";
 import Hosting from "./pages/hosting";
 import Web from "./pages/web";
+import Scripting from "./pages/scripting";
 
 export default function App() {
   return (
@@ -25,6 +26,7 @@ export default function App() {
         <Route path="vcs" element={<VCS />} />
         <Route path="hosting" element={<Hosting />} />
         <Route path="web" element={<Web />} />
+        <Route path="scripting" element={<Scripting />} />
       </Routes>
       <Footer /> {/* Use Footer */}
     </div>
