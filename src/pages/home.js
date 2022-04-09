@@ -119,7 +119,7 @@ return (
                 <img src={slack} id="forgeLogo" alt="social media network" width="64" height="64"/></a>
 			</div>
 			<div>
-			<a href="https://chat.whatsapp.com/HRbfQ8Mnx7VLIXzjuuh6ZH">
+			<a href="https://chat.whatsapp.com/FroxOCYrv2f3yCxueZdIkY">
                 <img src={whatsapp} id="forgeLogo" alt="social media network" width="64" height="64"/>
               </a>
       <br/>

@@ -22,19 +22,19 @@ export default function Navbar() {
                       <a class="container-fluid navbar-brand text-light bg-dark" href="/">CoderForge</a>
 
   <div>
-          <Link to="/">Home</Link> |{" "}
-          <Link to="/coders">Coders</Link> |{" "}
-          <Link to="/os">OS</Link> |{" "}
-          <Link to="/editors">Editors</Link> |{" "}
-          <Link to="/vcs">VCS</Link> |{" "}
-          <Link to="/hosting">Hosting</Link> |{" "}
-          <Link to="/web">Web</Link> |{" "}
-          <Link to="/scripting">Scripting</Link> |{" "}
-          <Link to="/backend">Backend</Link> |{" "}
-          <Link to="/database">Database</Link> |{" "}
-          <Link to="/kernel">Kernel</Link> |{" "}
-          <Link to="/cssfw">CSS Frameworks</Link> |{" "}
-          <Link to="/javascriptfw">Javascript Frameworks</Link> |{" "}
+          <Link class="text-white" to="/">Home</Link> |{" "}
+          <Link class="text-white" to="/coders">Coders</Link> |{" "}
+          <Link class="text-white" to="/os">OS</Link> |{" "}
+          <Link class="text-white" to="/editors">Editors</Link> |{" "}
+          <Link class="text-white" to="/vcs">VCS</Link> |{" "}
+          <Link class="text-white" to="/hosting">Hosting</Link> |{" "}
+          <Link class="text-white" to="/web">Web</Link> |{" "}
+          <Link class="text-white" to="/scripting">Scripting</Link> |{" "}
+          <Link class="text-white" to="/backend">Backend</Link> |{" "}
+          <Link class="text-white" to="/database">Database</Link> |{" "}
+          <Link class="text-white" to="/kernel">Kernel</Link> |{" "}
+          <Link class="text-white" to="/cssfw">CSS Frameworks</Link> |{" "}
+          <Link class="text-white" to="/javascriptfw">Javascript Frameworks</Link> |{" "}
   </div>
 
       </nav>
