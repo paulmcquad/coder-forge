@@ -2,6 +2,7 @@ import React from 'react';
 import Paul from '../assets/Coders/Paul.jpg';
 import Alan from '../assets/Coders/Alan.jpg';
 import Stephen from '../assets/Coders/Stephen.jpg';
+import Roisin from '../assets/Coders/Roisin.jpg';
 // import 'bootstrap/dist/css/bootstrap.css'
 // import 'bootstrap/dist/js/bootstrap.js'
 // import { Link } from "react-router-dom"; // reactrouter v6
@@ -22,7 +23,7 @@ return (
             <blockquote>
             <p class="text-lg font-medium ml-2">
               Started of as a student in Institute of Technology Tallaght in 2006.
-              Got my Higher Cert in Engineering in 2008. Joined coder-forge meetup
+              Got my Higher Cert in Engineering in 2008. Joined CoderForge meetup
               in January of 2019. Active user on Github - Has over 144 repositories and loves open source. Loves web
               development languages like HTML5, CSS3 and Javascript. Check out my 
               <a class="text-sky-500 dark:text-sky-400"
@@ -109,7 +110,7 @@ return (
               <blockquote>
               <p class="text-lg font-medium">
               Stephen is a junior full stack developer and graduate of Code Institute which is Europe's only
-              university accredited Bootcamp. You can check his portfolio page to find out more about him
+              university accredited Coding Bootcamp. You can check his portfolio page to find out more about him
               and view his projects and his GitHub. 
               </p>
               </blockquote>
@@ -133,6 +134,35 @@ return (
               </figcaption>
           </div>
           </figure>
+
+          <hr></hr>
+
+          <h3 class="text-xl font-bold underline">Roisin Quinn</h3>
+
+          <figure class="md:flex rounded-xl md:p-8 dark:bg-slate-800">
+          <img class="w-24 h-24 md:w-48 md:h-auto md:rounded rounded-full mx-auto" src={Roisin} alt="Web developer" width="384" height="512"/>
+            <div class="pt-6 md:p-8 text-left md:text-left space-y-4">
+                <blockquote>
+                <p class="text-lg font-medium">
+                Roisin is a CoderForge member. She joined the team and github in april 2019. She wanted to learn HTML and Python before Covid-19. Since then she has joined some of the zoom meetings.
+ 
+                </p>
+                </blockquote>
+                <figcaption class="font-medium">
+                <div class="text-sky-500 dark:text-sky-400">
+                    Roisin Quinn
+                </div>
+                <div class="text-slate-700 dark:text-slate-500">
+                    CoderForge Member - Ireland
+                </div>
+                <div>
+                Github : 
+                <a class="text-sky-500 dark:text-sky-400" href="https://github.com/roisinquinn1234"
+                  > https://github.com/roisinquinn1234 </a>
+                </div>
+                </figcaption>
+            </div>
+            </figure>
 
 
       </div>

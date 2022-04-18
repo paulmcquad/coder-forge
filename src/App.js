@@ -25,6 +25,7 @@ export default function App() {
     <Navbar /> {/* Use Navbar */}
       <Routes>
         <Route exact path="/" element={<Home />} />
+        <Route path="/*" element={<Home />} /> {/* Page Not Found */}
         <Route path="/coders" element={<Coders />} />
         <Route path="/os" element={<OS />} />
         <Route path="/editors" element={<Editors />} />
