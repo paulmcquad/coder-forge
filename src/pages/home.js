@@ -4,6 +4,7 @@ import meetupicon from '../assets/meetupicon.png';
 import fbicon from '../assets/fbicon.png';
 import slack from '../assets/slack.png';
 import whatsapp from '../assets/whatsapp.png';
+import discord from '../assets/discord.jpg';
 // import { Link } from "react-router-dom"; // reactrouter v6
 
 export default function Home() {
@@ -105,7 +106,7 @@ return (
 
         <h3 class="text-2xl font-bold">Want To Know More About Us?</h3>
 
-        <div class="w-56 grid grid-cols-4">
+        <div class="w-56 grid grid-cols-5">
 			<div>
 			<a href="https://www.meetup.com/Dublin-Coder-Forge/">
                 <img src={meetupicon} id="forgeLogo" alt="social media network" width="64" height="64"/></a>
@@ -122,9 +123,17 @@ return (
 			<a href="https://chat.whatsapp.com/FroxOCYrv2f3yCxueZdIkY">
                 <img src={whatsapp} id="forgeLogo" alt="social media network" width="64" height="64"/>
               </a>
+      </div>
+      <div>
+			<a href="https://discord.gg/whgKKa2kpf">
+                <img src={discord} id="forgeLogo" alt="social media network" width="64" height="64"/>
+              </a>
       <br/>
 			</div>
-        </div>
+      
+      <br/>
+
+      </div>
       </article>
       <article class="col">
 
